@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <title>Kochenk</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="title">
+                <img src="https://assets.coingecko.com/coins/images/33735/large/el_gato.png?1710475690" alt="El Gato">
+                <h2>Kochenk</h2>
+            </div>
+        </div>
+        <div class="space-nav">
+            <div class="space"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#jenis">Jenis</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="about" class="about">
+            <img src="https://imgsrv2.voi.id/d1g7m2sTQwWQPJ007CKxJ-KpE4enVRlDo8kYYwFSl9A/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8zMTQ5MTYvMjAyMzA5MjgxMTMwLW1haW4uY3JvcHBlZF8xNjk1ODc1NDY5LmpwZw.jpg" alt="Kucing" class="foto-kucing">
+            <div class="paragraf">
+                <h2>About</h2>
+                <p>Website ini dibuat untuk para pecinta kucing yang ingin mengetahui lebih banyak tentang berbagai jenis kucing, menikmati foto-foto menggemaskan, dan menghubungi kami untuk berbagi cerita atau pertanyaan tentang kucing. Kami berharap Anda menikmati waktu Anda di sini dan menemukan informasi serta inspirasi dari setiap halaman yang kami sediakan. Semoga ini membantu! Jika Anda memiliki detail khusus yang ingin ditambahkan, silakan beritahu saya.</p>
+            </div>
+        </div>
+        <div id="jenis" class="jenis">
+            <h2>Jenis Kucing</h2>
+            <div class="nav-jenis">
+                <form>
+                    <button type="button" onclick="showContent('angora')">Angora</button>
+                    <button type="button" onclick="showContent('persia')">Persia</button>
+                    <button type="button" onclick="showContent('british')">British Shorthair</button>
+                    <button type="button" onclick="showContent('maine')">Maine Coon</button>
+                    <button type="button" onclick="showContent('siamese')">Siamese</button>
+                    <button type="button" onclick="showContent('sphynx')">Sphynx</button>
+                    <button type="button" onclick="showContent('siberian')">Siberian</button>
+                    <button type="button" onclick="showContent('exotic')">Exotic Shorthair</button>
+                    <button type="button" onclick="showContent('bombay')">Bombay</button>
+                    <button type="button" onclick="showContent('bobtail')">American Bobtail</button>
+                </form>
+            </div>
+            <div class="jenis-kucing">
+                <div id="angora" class="content">
+                    <h3>Angora</h3>
+                    <p class="detail">Kucing Anggora, atau sering disebut juga Angora Turki, adalah salah satu ras kucing tertua dan paling elegan yang berasal dari wilayah Ankara di Turki. Kucing ini dikenal dengan bulu panjang, lembut, dan halus yang sering kali berwarna putih, meskipun mereka dapat memiliki berbagai warna dan pola. Anggora memiliki tubuh yang ramping dan berotot dengan kaki yang panjang dan anggun, serta ekor yang berbulu lebat dan sering kali digambarkan menyerupai sapu bulu. Matanya besar dan berbentuk almond, dengan warna yang bervariasi mulai dari biru, hijau, hingga odd-eyed (dua warna mata yang berbeda). Kucing Anggora dikenal sangat cerdas, aktif, dan penuh kasih sayang, serta memiliki sifat yang sosial dan senang berinteraksi dengan manusia. Mereka juga terkenal karena rasa ingin tahu yang tinggi dan kecenderungan untuk menjelajahi lingkungan sekitar mereka. Dengan perpaduan antara penampilan yang memukau dan kepribadian yang menyenangkan, kucing Anggora menjadi pilihan yang populer di kalangan pecinta kucing di seluruh dunia.</p>
+                </div>
+                <div id="persia" class="content hidden">
+                    <h3>Persia</h3>
+                    <p class="detail">Kucing Persia adalah salah satu ras kucing yang paling dikenal dan dihargai di dunia, terutama karena penampilan mereka yang elegan dan sifatnya yang tenang. Kucing ini memiliki bulu yang panjang, tebal, dan halus, serta wajah yang khas dengan hidung pesek dan mata besar yang ekspresif. Persia dikenal karena temperamennya yang lembut dan penyayang, menjadikannya hewan peliharaan yang ideal untuk keluarga dan individu yang mencari teman yang tenang dan penyayang. Mereka cenderung tidak terlalu aktif, lebih suka menghabiskan waktu bersantai di sekitar rumah. Kucing Persia memerlukan perawatan rutin untuk menjaga kebersihan dan kesehatan bulu mereka yang indah.</p>
+                </div>
+                <div id="british" class="content hidden">
+                    <h3>British Shorthair</h3>
+                    <p class="detail">Kucing British Shorthair adalah salah satu ras kucing tertua dan paling populer di dunia, terkenal dengan tubuhnya yang kekar, wajah bulat, dan bulu pendek yang tebal. Mereka memiliki mata besar dan ekspresif, sering kali berwarna tembaga atau emas, yang memberikan tampilan yang ramah dan menggemaskan. Bulu mereka yang padat dan lembut bisa hadir dalam berbagai warna dan pola, meskipun warna biru-abu-abu adalah yang paling terkenal. British Shorthair dikenal sebagai kucing yang tenang, penyayang, dan mudah beradaptasi, menjadikannya pilihan ideal untuk keluarga dan individu. Mereka cenderung mandiri tetapi tetap menikmati interaksi manusia dan bermain. Dengan perawatan yang relatif mudah dan kepribadian yang menyenangkan, kucing British Shorthair adalah sahabat yang sempurna bagi banyak pecinta kucing.</p>
+                </div>
+                <div id="maine" class="content hidden">
+                    <h3>Maine Coon</h3>
+                    <p class="detail">Kucing Maine Coon adalah salah satu ras kucing domestik terbesar dan paling terkenal di dunia. Dikenal karena tubuhnya yang besar dan berotot, Maine Coon jantan bisa mencapai berat hingga 8-11 kilogram, sementara betinanya biasanya lebih ringan, berkisar antara 5-8 kilogram. Mereka memiliki bulu panjang dan tebal yang sangat cocok untuk bertahan di iklim dingin, dengan lapisan bawah yang lembut dan lapisan luar yang lebih kasar. Maine Coon juga memiliki ekor panjang yang lebat dan telinga yang besar dengan ujung berbulu, mirip dengan kucing hutan. Selain penampilan fisiknya yang mengesankan, Maine Coon juga dikenal karena sifatnya yang ramah, lembut, dan cerdas. Mereka sangat sosial dan sering dianggap sebagai "gentle giants" karena temperamen mereka yang tenang dan penuh kasih sayang. Kucing ini juga cenderung sangat setia kepada pemiliknya dan bisa beradaptasi dengan baik di lingkungan rumah tangga, menjadikannya pilihan populer bagi banyak keluarga di seluruh dunia.</p>
+                </div>
+                <div id="siamese" class="content hidden">
+                    <h3>Siamese</h3>
+                    <p class="detail">Kucing Siamese adalah salah satu ras kucing yang paling dikenal di dunia, terkenal dengan penampilan mereka yang elegan dan karakter yang ramah. Mereka memiliki tubuh yang ramping, panjang, dan berotot dengan kaki yang panjang dan proporsional. Kucing Siamese memiliki kepala berbentuk segitiga, telinga besar, dan mata berwarna biru cerah yang berbentuk almond, memberikan mereka ekspresi yang sangat khas. Bulunya pendek dan halus, dengan pola warna yang khas dikenal sebagai "point" yang mencakup wajah, telinga, kaki, dan ekor, sementara bagian tubuh lainnya tetap lebih terang. Warna point ini bisa beragam, termasuk seal, biru, cokelat, dan lilac. Selain penampilan fisiknya yang menarik, kucing Siamese juga dikenal karena kepribadiannya yang vokal dan suka bersosialisasi. Mereka sangat setia kepada pemiliknya dan cenderung mengikuti mereka di sekitar rumah, sering mengeong untuk berkomunikasi. Kepribadian mereka yang penuh kasih dan interaktif membuat mereka menjadi hewan peliharaan yang sangat disayangi.</p>
+                </div>
+                <div id="sphynx" class="content hidden">
+                    <h3>Sphynx</h3>
+                    <p class="detail">Kucing Sphynx adalah jenis kucing yang terkenal karena penampilannya yang unik dan hampir tidak berbulu. Kulit mereka yang terlihat seperti kulit manusia membuat mereka sangat mudah dikenali. Meskipun terlihat tanpa bulu, mereka sebenarnya memiliki lapisan tipis bulu yang terasa seperti beludru saat disentuh. Sphynx memiliki tubuh yang berotot dan ramping, dengan telinga besar yang berdiri tegak dan mata yang ekspresif. Mereka dikenal sebagai kucing yang sangat ramah, energik, dan suka berinteraksi dengan manusia, sering mengikuti pemiliknya di sekitar rumah. Karena kurangnya bulu, kucing Sphynx memerlukan perawatan khusus untuk menjaga kulit mereka tetap sehat, seperti mandi rutin untuk menghilangkan minyak berlebih. Meskipun tidak memiliki bulu, mereka tidak hipoalergenik, karena alergi biasanya disebabkan oleh protein yang ditemukan dalam air liur kucing. Sphynx adalah pilihan populer bagi mereka yang mencari hewan peliharaan yang penuh kasih sayang dan menarik perhatian.</p>
+                </div>
+                <div id="siberian" class="content hidden">
+                    <h3>Siberian</h3>
+                    <p class="detail">Kucing Siberian adalah salah satu ras kucing domestik yang terkenal dengan bulu tebal dan lebat, yang membuatnya tampak sangat menggemaskan dan anggun. Ras ini berasal dari Rusia dan telah ada selama beberapa abad, meskipun baru diakui secara resmi oleh organisasi kucing internasional dalam beberapa dekade terakhir. Kucing Siberian memiliki tubuh yang kuat dan berotot, dengan kaki yang kuat dan cakar yang besar, memungkinkan mereka menjadi pemburu yang handal di alam liar. Mereka memiliki kepribadian yang ramah, cerdas, dan penuh kasih sayang, menjadikan mereka hewan peliharaan yang ideal untuk keluarga. Selain itu, kucing Siberian dikenal hipoalergenik, karena mereka memproduksi lebih sedikit protein Fel d 1, yang sering menjadi penyebab alergi pada manusia. Kucing ini membutuhkan perawatan bulu yang rutin karena bulunya yang panjang dan tebal, tetapi mereka cenderung menikmati perhatian dan interaksi dengan pemiliknya. Dengan kombinasi fisik yang menawan dan sifat yang menyenangkan, kucing Siberian terus mendapatkan popularitas di kalangan pecinta kucing di seluruh dunia.</p>
+                </div>
+                <div id="exotic" class="content hidden">
+                    <h3>Exotic Shorthair</h3>
+                    <p class="detail">Kucing Exotic Shorthair adalah jenis kucing yang dikenal dengan penampilan yang menggemaskan dan karakter yang menawan. Mereka adalah versi berambut pendek dari kucing Persia, memiliki wajah bulat, hidung pesek, dan mata besar yang menambah kesan manis dan imut. Bulunya yang pendek dan padat membuatnya lebih mudah dirawat dibandingkan dengan kucing Persia yang berbulu panjang. Exotic Shorthair memiliki sifat yang ramah, tenang, dan penuh kasih sayang, menjadikannya hewan peliharaan yang ideal bagi keluarga dan individu. Mereka cenderung lebih suka berada di dekat pemiliknya dan senang mendapatkan perhatian, namun juga mandiri dan bisa menghibur diri sendiri. Kucing ini sangat cocok bagi mereka yang menginginkan keindahan dan kelembutan kucing Persia, namun dengan perawatan yang lebih mudah.</p>
+                </div>
+                <div id="bombay" class="content hidden">
+                    <h3>Bombay</h3>
+                    <p class="detail">Kucing Bombay adalah jenis kucing domestik yang dikenal karena penampilannya yang menyerupai panther kecil. Mereka memiliki bulu hitam pekat yang mengkilap, mata bulat berwarna tembaga atau emas, serta tubuh berotot dan proporsional. Kucing ini merupakan hasil persilangan antara kucing American Shorthair berwarna hitam dengan kucing Burmese berwarna sable. Bombay terkenal dengan sifatnya yang ramah, penyayang, dan suka berinteraksi dengan manusia, menjadikannya hewan peliharaan yang ideal bagi keluarga. Selain itu, mereka juga dikenal cerdas dan mudah beradaptasi dengan lingkungan baru. Meskipun memiliki penampilan yang elegan dan eksotis, kucing Bombay umumnya cukup sehat dengan perawatan yang relatif mudah, membuat mereka semakin populer di kalangan pecinta kucing.</p>
+                </div>
+                <div id="bobtail" class="content hidden">
+                    <h3>American Bobtail</h3>
+                    <p class="detail">Kucing American Bobtail adalah salah satu ras kucing yang dikenal dengan ekornya yang pendek dan unik, mirip dengan ekor kelinci. Ras ini pertama kali muncul di Amerika Serikat pada akhir tahun 1960-an, dan sejak itu telah menjadi salah satu kucing yang populer di kalangan pecinta kucing. American Bobtail memiliki tubuh yang kekar dan berotot dengan bulu yang bisa pendek atau semi-panjang. Kucing ini dikenal sangat ramah, cerdas, dan mudah beradaptasi, membuatnya menjadi hewan peliharaan yang ideal bagi keluarga. Selain itu, mereka juga memiliki sifat yang penuh kasih sayang dan cenderung bergaul baik dengan anak-anak serta hewan peliharaan lainnya. Sifatnya yang tenang dan kemampuan adaptasi yang baik menjadikan American Bobtail cocok untuk berbagai lingkungan, termasuk rumah yang ramai dan dinamis.</p>
+                </div>
+            </div>
+        </div>
+        <div id="photos" class="photos">
+            <h2>Photos</h2>
+            <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/10/26071254/mengenal-fakta-menarik-seputar-kucing-anggora-turki-halodoc.jpg.webp" alt="Kucing 1" class="photos-kucing">
+            <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/01/2023/11/17/Kucing-Ragamuffin-4227232859.jpg" alt="Kucing 2" class="photos-kucing">
+            <img src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/688004_12-3-2021_12-57-42.webp" alt="Kucing 3" class="photos-kucing">
+            <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1661753020/attached_image/inilah-cara-merawat-anak-kucing-yang-tepat.jpg" alt="Kucing 4" class="photos-kucing">
+            <img src="https://awsimages.detik.net.id/community/media/visual/2023/09/02/kucing-ragdoll_169.jpeg?w=600&q=90" alt="Kucing 5" class="photos-kucing">
+            <img src="https://cdn0-production-images-kly.akamaized.net/Xc1138UZHofwKdQQRH1C4O0t9EE=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/892150/original/048455900_1433335401-kucingmelet5.jpg" alt="Kucing 6" class="photos-kucing">
+            <img src="https://www.mongabay.co.id/wp-content/uploads/2023/06/kucing-rumahan-unsplash.jpeg" alt="Kucing 7" class="photos-kucing">
+            <img src="https://www.acehardware.co.id/files/uploads/inspirationarticle/thumb_image/2022/Oct/11/mainimagecaramenjinakkankucingwebp-770x770.webp" alt="Kucing 8" class="photos-kucing">
+            <img src="https://asset.kompas.com/crops/fBOa2e3WMFp_UCWBk_NeVJpdNWY=/0x2:609x408/750x500/data/photo/2023/02/20/63f343d9a08c8.jpeg" alt="Kucing 9" class="photos-kucing">
+            <img src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2021/08-19/orange+and+white+American+bobtail+tabby+cat+with+a+dark+collar-min.jpg" alt="Kucing 10" class="photos-kucing">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Murmur%27s_Siberian_Cat_siberiano_golden_%28cropped%29.JPG" alt="Kucing 11" class="photos-kucing">
+            <img src="https://www.thesprucepets.com/thmb/RnGTM5ENlWu-D4oND397jksaUCw=/1911x0/filters:no_upscale():strip_icc()/bombay-cat-full-profile-history-and-care-5202250-hero-85810f454cf84a7786e650136a10f91c.jpg" alt="Kucing 12" class="photos-kucing">
+        </div>
+        <div id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <textarea id="message" name="message" placeholder="Message"></textarea>
+                <button type="button" onclick="contact()">Send</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p>Kochenk &copy; 2024</p>
+        <script src="assets/script/contact.js"></script>
+        <script src="assets/script/showContent.js"></script>
+    </body>
+</html>
